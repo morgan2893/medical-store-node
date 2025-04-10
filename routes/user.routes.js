@@ -3,7 +3,7 @@ const router = express.Router();
 const userController = require("../controllers/user.controller");
 const { protect, authorize } = require("../middleware/auth");
 const advancedResults = require("../middleware/advancedResults");
-const User = require("../models/user");
+const User = require("../models/User");
 
 // Apply protect and authorize admin to all routes
 router.use(protect);

@@ -1,4 +1,4 @@
-const User = require("../models/user");
+const User = require("../models/User");
 const { ErrorResponse } = require("../utils/errorHandler");
 const { jwtSecret, jwtExpire } = require("../config/auth");
 const jwt = require("jsonwebtoken");

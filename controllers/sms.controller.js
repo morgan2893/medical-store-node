@@ -1,5 +1,5 @@
-const Customer = require("../models/customer");
-const Product = require("../models/product");
+const Customer = require("../models/Customer");
+const Product = require("../models/Product");
 const { ErrorResponse } = require("../utils/errorHandler");
 const asyncHandler = require("../middleware/async");
 const smsService = require("../services/sms.service");

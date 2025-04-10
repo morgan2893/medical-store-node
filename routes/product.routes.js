@@ -3,7 +3,7 @@ const router = express.Router();
 const productController = require("../controllers/product.controller");
 const { protect, authorize } = require("../middleware/auth");
 const advancedResults = require("../middleware/advancedResults");
-const Product = require("../models/product");
+const Product = require("../models/Product");
 
 router
   .route("/")

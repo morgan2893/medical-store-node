@@ -1,5 +1,5 @@
 const twilio = require("twilio");
-const Customer = require("../models/customer");
+const Customer = require("../models/Customer");
 const ErrorResponse = require("../utils/errorHandler");
 const { accountSid, authToken, phoneNumber } = require("../config/sms");
 

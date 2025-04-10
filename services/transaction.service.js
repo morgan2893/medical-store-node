@@ -1,6 +1,6 @@
 const Transaction = require("../models/Transaction");
-const Customer = require("../models/customer");
-const Product = require("../models/product");
+const Customer = require("../models/Customer");
+const Product = require("../models/Product");
 const ErrorResponse = require("../utils/errorHandler");
 
 module.exports = {
