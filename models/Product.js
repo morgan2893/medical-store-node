@@ -10,28 +10,21 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
-  batchNumber: {
-    type: String,
-    required: true,
-  },
-  expiryDate: {
-    type: Date,
-    required: true,
-  },
-  price: {
-    type: Number,
-    required: true,
-    min: 0,
-  },
-  quantity: {
-    type: Number,
-    required: true,
-    min: 0,
-  },
+
   category: {
     type: String,
-    enum: ["medicine", "equipment", "personal_care", "other"],
+    enum: [
+      "tablet",
+      "capsule",
+      "syrup",
+      "drop",
+      "ointment",
+      "equipment",
+      "personal_care",
+      "other",
+    ],
     default: "medicine",
+    require: true,
   },
   manufacturer: {
     type: String,

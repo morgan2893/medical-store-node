@@ -9,7 +9,10 @@ router
   .route("/")
   .get(
     protect,
-    advancedResults(Product, "addedBy"),
+    advancedResults(Product, {
+      path: "addedBy",
+      select: "name email", // for sending selected fields only
+    }),
     productController.getProducts
   )
   .post(

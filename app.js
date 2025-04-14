@@ -8,6 +8,7 @@ const connectDB = require("./config/db");
 // Route files
 const authRoutes = require("./routes/auth.routes");
 const productRoutes = require("./routes/product.routes");
+const stockRoutes = require("./routes/stock.routes");
 const customerRoutes = require("./routes/customer.routes");
 const transactionRoutes = require("./routes/transaction.routes");
 // const smsRoutes = require("./routes/sms.routes");
@@ -33,6 +34,7 @@ app.use(cors());
 // Mount routers
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/products", productRoutes);
+app.use("/api/v1/stocks", stockRoutes);
 app.use("/api/v1/customers", customerRoutes);
 app.use("/api/v1/transactions", transactionRoutes);
 // app.use("/api/v1/sms", smsRoutes);
