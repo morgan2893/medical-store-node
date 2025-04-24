@@ -14,6 +14,8 @@ router
   )
   .post(protect, customerController.createCustomer);
 
+router.route("/getAll").get(protect, customerController.getAll);
+
 router
   .route("/:id")
   .get(protect, customerController.getCustomer)

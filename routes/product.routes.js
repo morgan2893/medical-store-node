@@ -21,6 +21,8 @@ router
     productController.createProduct
   );
 
+router.route("/getAll").get(protect, productController.getAll);
+
 router
   .route("/:id")
   .get(protect, productController.getProduct)

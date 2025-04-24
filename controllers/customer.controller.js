@@ -9,6 +9,11 @@ exports.getCustomers = asyncHandler(async (req, res, next) => {
   res.status(200).json(res.advancedResults);
 });
 
+exports.getAll = asyncHandler(async (req, res, next) => {
+  const customers = await Customer.find({}, { _id: 1, name: 1 });
+  res.status(200).json({ success: true, data: customers });
+});
+
 // @desc    Get single customer
 // @route   GET /api/v1/customers/:id
 // @access  Private

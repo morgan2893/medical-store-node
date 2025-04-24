@@ -9,6 +9,11 @@ exports.getProducts = asyncHandler(async (req, res, next) => {
   res.status(200).json(res.advancedResults);
 });
 
+exports.getAll = asyncHandler(async (req, res) => {
+  const products = await Product.find({}, { _id: 1, name: 1 });
+  res.status(200).json({ success: true, data: products });
+});
+
 // @desc    Get single product
 // @route   GET /api/v1/products/:id
 // @access  Private

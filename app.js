@@ -13,6 +13,7 @@ const customerRoutes = require("./routes/customer.routes");
 const transactionRoutes = require("./routes/transaction.routes");
 // const smsRoutes = require("./routes/sms.routes");
 const userRoutes = require("./routes/user.routes");
+const billRoutes = require("./routes/bill.routes");
 const { errorHandler } = require("./utils/errorHandler");
 
 // Connect to database
@@ -39,6 +40,7 @@ app.use("/api/v1/customers", customerRoutes);
 app.use("/api/v1/transactions", transactionRoutes);
 // app.use("/api/v1/sms", smsRoutes);
 app.use("/api/v1/users", userRoutes);
+app.use("/api/v1/bills", billRoutes);
 
 // Error handler middleware
 app.use(errorHandler);

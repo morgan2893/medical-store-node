@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "my-medical-store-457806",
+  "private_key_id": "b704679ceccf178e8223ec058be1f0e810c2f752",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVZOJV+v15zc9/\nFAnBslrCY9pZTtSERkLblM+PuNl47EXCRqZAlXPbkd9BUbT9jo8gaYSG0uqNiDNA\nvdHt0V9S7+FxOfdKMNumhftGMSsU21XACe2ZLg7nFsWDIM17L5s/6cGyncHLPfJx\nzaSLNTdHxVU1LZXbWt25/wrphJslgPk+cM+xuLLpeoL1N3CyE/G6G3qXp6kn1Lg4\nsdJr9sZUzbWo1bXqT6qlkuLMDLx944WYgp83cQpV2YvpCJ9SIag32Y4YcvbtXBtI\nQ2A98uRnFmXFrNgWZ4s/gk9ZbFozJPI/sAmIUzHXLA7lONMgrt38j9Id5VogaxX2\nKIuLSpABAgMBAAECggEAAwrAYD3m+aLJs7PPLMv0V8ORJAdH58fRoaw2JkQaE4t4\nthuIOLD4uRdUAawewqOS3kEq0ro0fkaEBob+NF/w9i91vQW4xP27z9yml5pRVSeI\nSifKE44wx7IPKD6iN0CXO7rDGF7/2XwdVep6z0I3ssX5IDwxX/JkaUedufT6Ojdd\nDDRIztDbISVhRFa6w0dI2n24mb5jV6i0eqMFun36eOLG2O84JcYzTFYHX5NNYNNf\nEJ0o7RdcFf6Sulf9fLTXq8kvzNihAix13laqpSbLaBfNBArFp0t3b6F2uq4eEdb2\n8m7lZ21qBucwj1txBtuULG6xt6nVSu2zjgsQwdbFwQKBgQDsEHWmgegVaK9Kpc+x\n4iSCVmsMWaEWX9Z7TTwEqwBgZzm+QNpe1FrC3waMgd/tBumg3to1S99Uz8TirzSH\niAILV9wtG2X5zbWNAa4Bw9pHkjg5muRwumGuofiKyqdgCOx1vlUKdEmykcHyuX2g\ntz4IBCZzQUm79bm7Tj111+cXEQKBgQDnak+N/1ZrOHNr5wGCY6+Nl7tdvhAj7bnV\nP3IkM7gAKwbIsm1yFAL/VL3gbx6BeNNskq+YgLFgwW4ikcvrNT3+Y8MgctQrjhZ6\n4Cj//bWKKSO+MUfEk0XZkxWfhqjScbrFa/TmvTlBzfPQQWDNoPf8Zere7104+6HO\n6LC0lopJ8QKBgQCpINnJ5ATNYeVFDCsT/Tu/Df9AJ+8bwqo+SQWZKpLofsyGHJzX\nmDk2qOdeP6aZgXxdP40C5kspznn3FyQBflZInjgnMRwMr29FiVCL/zAiWwZhbzH/\n+ekGXxFdDvh/+6S+bxEqnko23+se5fq17NNKlv6dUMdtHQ5mvhWWmor8oQKBgQDT\nhlkxcjOLzg2yk3TNulC9G/Qnu5MFREaYpWWvsZZ+kNWinXVs0N3shYkJnIhF0Ctx\nEqNuwjNgPW5uKtY6KHCCFq5E+rD1HuttZXgUhdNqdjA1qNXw2K0AM3GQX4Xw1gPi\ncMtqHYw4mghCU4AodPo3uvD01dZgP6GnfwoGB5RgAQKBgD8ocn9i9PdRoxlKSfOa\nPp5BOD/VkeM3uEqSlC2VjqjzeLQY4AS+udGryadb9EOOa64UXJbWF0WeZGixvjmF\nUMvvYxqbmJwyXfZLWR595WW+b2wJcNdE2LKwRJ59DnoKc64+Gq+M3Akut+V9qOYT\ncONuY69jycl4ZUl5UeG2f0k2\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-medical-store@my-medical-store-457806.iam.gserviceaccount.com",
+  "client_id": "112641781830964179527",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-medical-store%40my-medical-store-457806.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

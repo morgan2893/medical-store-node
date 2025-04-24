@@ -32,7 +32,6 @@ exports.createUser = asyncHandler(async (req, res, next) => {
 
   // Check if user exists
   const existingUser = await User.findOne({ email });
-  console.log("skjskds", existingUser);
   if (existingUser) {
     return next(new ErrorResponse("User already exists", 400));
   }
